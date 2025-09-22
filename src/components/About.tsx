@@ -30,7 +30,10 @@ export default function About() {
           Welcome to Zentry
         </h2>
 
-        <AnimatedTitle />
+        <AnimatedTitle
+          title="Disc<b>o</b>very the world's <br /> l<b>a</b>rgest shared adventure"
+          className="mt-5 !text-black text-center"
+        />
 
         <div className="about-subtext">
           <p>The Game of Games begins-your life, now an epic MMOROG</p>
