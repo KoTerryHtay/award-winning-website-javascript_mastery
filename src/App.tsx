@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 // import Hero1 from "./components/Hero-v1";
@@ -10,6 +11,7 @@ export default function App() {
       <NavBar />
       <Hero />
       <About />
+      <Features />
     </main>
   );
 }
