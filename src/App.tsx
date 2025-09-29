@@ -2,6 +2,7 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Story from "./components/Story";
 // import Hero1 from "./components/Hero-v1";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <Hero />
       <About />
       <Features />
+      <Story />
     </main>
   );
 }
